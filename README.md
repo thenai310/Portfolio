@@ -1,11 +1,28 @@
 # Portfolio
 
-A standalone personal portfolio landing page designed to work like a resume summary, highlight recent work, and provide quick access to social profiles and GitHub.
+A React-based personal portfolio landing page that works as a resume summary,
+highlights recent work, and links to social profiles and GitHub.
 
-## Usage
+## Edit Content
 
-Open `/home/runner/work/Portfolio/Portfolio/index.html` in a browser.
+Update `/home/runner/work/Portfolio/Portfolio/src/App.jsx` to change text,
+sections, and links.
 
-## Hosting
+Update `/home/runner/work/Portfolio/Portfolio/src/App.css` and
+`/home/runner/work/Portfolio/Portfolio/src/index.css` to change styling.
 
-This is a static page, so it can be hosted on any static hosting provider (for example GitHub Pages, Netlify, or Vercel) without build steps.
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build for Hosting
+
+```bash
+npm run build
+```
+
+Deploy the generated `dist/` folder to static hosting (GitHub Pages, Netlify,
+Vercel, etc.).
