@@ -7,5 +7,5 @@ export const contact = {
   location: "Madrid, Spain",
   github: "https://github.com/thenai310",
   linkedin: "https://www.linkedin.com/in/daniel-valle-81107a240/",
-  resume: "/resume.pdf"
+  resume: `${import.meta.env.BASE_URL}resume.pdf`
 };
