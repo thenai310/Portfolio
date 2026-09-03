@@ -1,0 +1,48 @@
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.card {
+  background: rgba(17, 24, 39, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 0.75rem;
+}
+
+p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+}
+
+.muted {
+  color: #9ca3af;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+}
+
+a:hover {
+  border-bottom-color: #38bdf8;
+}
